@@ -2,7 +2,6 @@ import 'package:get/get.dart';
 
 import '../controller/home_controller.dart';
 import '../screen/view/expend/view/expend_view.dart';
-import '../screen/view/pos_bluetooth_print/view/blue_tooth_screen.dart';
 import '../screen/home_screen.dart';
 import '../screen/item_upload_screen.dart';
 import '../screen/view/auth/login/view/login_view.dart';
@@ -38,10 +37,7 @@ List<GetPage> routes = [
     name: uploadItemScreen,
     page: () => UploadItem(),
   ),
-  GetPage(
-    name: blueToothScreen,
-    page: () => BlueToothPrintScreen(),
-  ),
+  
   GetPage(
     name: inventoryUrl,
     page: () => const InventoryManagement(),

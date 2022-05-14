@@ -9,7 +9,6 @@ import 'controller/home_controller.dart';
 import 'controller/main_navigation_controller.dart';
 import 'controller/pos/order_controller.dart';
 import 'screen/view/pos/controller/pos_controller.dart';
-import 'screen/view/pos_bluetooth_print/controller/blue_print_controller.dart';
 import 'utils/theme.dart';
 
 Future<void> main() async {
@@ -34,7 +33,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    Get.put(BluePrintController());
     Get.put(MainNavigationController());
     Get.put(OrderController());
     Get.put(PosController());

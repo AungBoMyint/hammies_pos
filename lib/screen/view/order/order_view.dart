@@ -9,7 +9,6 @@ import '../../../controller/home_controller.dart';
 import '../../../controller/pos/order_controller.dart';
 import '../../../utils/theme.dart';
 import '../../../widgets/pos/row_item.dart';
-import '../order_detail/order_detail_view.dart';
 import '../order_print/view/order_print_view.dart';
 
 class OrderView extends StatelessWidget {

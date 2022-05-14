@@ -49,7 +49,7 @@ class _OrderPrintViewState extends State<OrderPrintView> {
             pw.SizedBox(height: 5),
             pw.Image(_controller.image, width: 50, height: 50),
             pw.SizedBox(height: 2),
-            pw.Text("Cindy Shop",
+            pw.Text("Hammies Mandalian",
                 style: const pw.TextStyle(
                   fontSize: 8,
                 )),
@@ -61,7 +61,7 @@ class _OrderPrintViewState extends State<OrderPrintView> {
                 style: const pw.TextStyle(
                   fontSize: 8,
                 )),
-            pw.Text("email: cindy@gmail.com",
+            pw.Text("email: hammies@gmail.com",
                 style: const pw.TextStyle(
                   fontSize: 8,
                 )),
@@ -257,7 +257,7 @@ class _OrderPrintViewState extends State<OrderPrintView> {
       ),
       body: SafeArea(
         child: PdfPreview(
-         /* actions: [
+          /* actions: [
             PdfPreviewAction(
                 icon: const Icon(
                   Icons.print,
